@@ -12,6 +12,17 @@ body {
     font-family: "Avenir", "Cabin", Arial, sans-serif;
 }
 
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#content {
+    margin-top: 13em;
+}
+
 #header__info-board {
     background-color: steelblue;
 }
