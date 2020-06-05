@@ -1,0 +1,88 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #232323;
+    font-family: "Avenir", "Cabin", Arial, sans-serif;
+}
+
+#header__info-board {
+    background-color: steelblue;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding: 1em 0;
+}
+
+span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#header__game-options {
+    background-color: white;
+    text-align: center;
+    line-height: 0em;
+}
+
+button {
+    padding: .4em;
+    color: black;
+    font-weight: bold;
+    border: none;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    outline: none;
+    transition: all 1s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+}
+
+button:hover {
+    background-color: steelblue;
+    color: white;
+}
+
+span#header__message {
+    color: black;
+    font-size: 1em;
+    display: inline-block;
+    letter-spacing: .2em;
+    width: 30%;
+    padding: 0 .3em;
+}
+
+.selected {
+    background-color: steelblue;
+    color: white;
+    border: none;
+}
+
+#content {
+    max-width: 50em;
+}
+
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 2em;
+    transition: background 0.5s;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+}
