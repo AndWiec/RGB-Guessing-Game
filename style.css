@@ -19,7 +19,7 @@ header {
 }
 
 #content {
-    margin-top: 13em;
+    margin: 13em auto 1em auto;
 }
 
 #header__info-board {
